@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"**/*o": true,
+		"**/Colleen": true,
+		"**/Grace": true,
+		"**/Sully": true
+	},
+	"editor.formatOnSave": false
+}
