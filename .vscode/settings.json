@@ -3,7 +3,9 @@
 		"**/*o": true,
 		"**/Colleen": true,
 		"**/Grace": true,
-		"**/Sully": true
+		"**/Grace_kid.?": true,
+		"**/Sully": true,
+		"**/Sully_*": true
 	},
 	"editor.formatOnSave": false
 }

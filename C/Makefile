@@ -21,10 +21,9 @@ Sully:		Sully.o
 re:			fclean all
 
 clean:
-	$(RM) *.o
+		$(RM) *.o
 
-fclean:
-	$(RM) *.o
-	$(RM) colleen
+fclean:		clean
+		$(RM) Colleen Grace Sully Sully_*
 
 .PHONY:		all clean fclean re
