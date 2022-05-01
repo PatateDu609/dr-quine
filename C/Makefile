@@ -7,7 +7,7 @@ RM		:=	rm -f
 %.o	:		%.c
 			$(CC) $(CFLAGS) -c $< -o $@
 
-all:		Colleen # Grace Sully
+all:		Colleen Grace Sully
 
 Colleen:	Colleen.o
 		$(CC) $(LDFLAGS) -o Colleen Colleen.o
