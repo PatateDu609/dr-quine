@@ -1,6 +1,6 @@
 CC			:=	nasm
 LD			:=	gcc
-ASMFLAGS	:= -felf64 -g3 -Fdwarf
+ASMFLAGS	:= -felf64 -g3 -gdwarf -Fdwarf
 LDFLAGS		:= -no-pie -lc
 
 RM			:=	rm -f
@@ -8,7 +8,7 @@ RM			:=	rm -f
 %.o	:		%.s
 			$(CC) $(ASMFLAGS) $< -o $@
 
-all:		Colleen Grace #Sully
+all:		Colleen Grace Sully
 
 Colleen:	Colleen.o
 		$(LD) -o Colleen Colleen.o $(LDFLAGS)
