@@ -1,6 +1,6 @@
 CC		:=	gcc
-CFLAGS	:=	-Wall -Werror -Wextra
-LDFLAGS	:=
+CFLAGS	:=	-Wall -Werror -Wextra -g3 -ggdb
+LDFLAGS	:=	-g3
 
 RM		:=	rm -f
 
